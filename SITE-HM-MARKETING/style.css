@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.cabecalho{
+    margin: 20px 5px 2px 5px;
+}
+
+.logo {
+    width: 60%;
+    display: flex;
+    margin-left: 20%;
+}
+
+.barra-inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-pre-layout, 
+.img-pos-layout {
+    margin-top: 25px;
+    width: 94%;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0.5rem;
+}
+
+.cor{
+    width: 70%;
+    height: 3px;
+    color: purple;
+    background-color: purple;
+    border-radius: 10rem;
+}
+
+.paragrafo {
+    color: purple;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-description1 p{ 
+    font-size: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    color: white;
+}
+
+p.inside {
+    margin: 0;
+}
+
+.icon {
+    color: white;
+}
+
+
+.layout {
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 165px;
+}
+
+.container-description1 {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+    width: 20%;
+    height: 150px;
+}
+
+.div1 {
+    background-color: rgb(219, 3, 3);
+    border-radius: 1rem 0 1rem 0;
+}
+
+.div2 {
+    background-color: rgb(255, 136, 0);
+    border-radius: 1rem 0 1rem 0;
+}
+
+.div3 {
+    background-color: rgba(5, 181, 5, 0.961);
+    border-radius: 1rem 0 1rem 0;
+}
+
+.div4 {
+    background-color: rgba(161, 0, 161, 0.947);
+    border-radius: 1rem 0 1rem 0;
+}
+
+.div5 {
+    background-color: rgb(0, 156, 208);
+    border-radius: 1rem 0 1rem 0;
+}
+
+footer {
+    border-color: bisque;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
